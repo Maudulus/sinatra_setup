@@ -1,0 +1,55 @@
+/* CSS Document */
+body {
+  background-size: 100%;
+  background-image:url("/images/olivia_huang_backgroundpattern.jpg"), url("");
+}
+
+@font-face {
+    font-family: 'chunkfiveroman';
+    src: url('/fonts/chunkfive-webfont.eot');
+    src: url('/fonts/chunkfive-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/chunkfive-webfont.woff') format('woff'),
+         url('/fonts/chunkfive-webfont.ttf') format('truetype'),
+         url('/fonts/chunkfive-webfont.svg#chunkfiveroman') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+  font-family: 'chunkfiveroman', Fallback, sans-serif;
+}
+
+h1 {
+  font-size: 70px;
+  text-align: center;
+  margin-right: 150px;
+  margin-bottom: -20px;
+}
+
+
+.row ul li {
+  display: inline;
+  padding: 20px;
+
+}
+
+.row ul {
+  text-align: center;
+}
+
+.row a{
+  text-decoration: none;
+}
+
+a {
+  font-size: 2em;
+  text-align: center;
+}
+
+h1 {
+  margin-right: 200px;
+}
+
+
+
