@@ -1,5 +1,11 @@
 require 'sinatra'
-require 'pry'
+
+configure :development do
+  require 'dotenv'
+  Dotenv.load
+
+  require 'pry'
+end
 
 get '/' do
 
